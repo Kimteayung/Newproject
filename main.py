@@ -2,6 +2,8 @@ def creat_student(name, korean, math, english, science):
     return {"name": name, "korean": korean, "math": math,\
             "english": english, "science": science}
 
+# 두번째 코드 작성 중
+
 # 학생의 총점과 평균을 구하는 함수
 def student_sum(student):
     return student["korean"] + student["math"] + student["english"] + student["science"]
